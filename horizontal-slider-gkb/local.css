@@ -66,9 +66,15 @@
   cursor: pointer;
   width: 300px;
 }
-.slider--max .slick-slide {
-  width: 900px;
+.slider--min img {
+  max-height: 160px;
 }
 .slider_slide img {
   margin: 0 auto;
+}
+.slider--max .slick-slide {
+  width: 900px;
+}
+.slider--max img {
+  max-height: 600px;
 }

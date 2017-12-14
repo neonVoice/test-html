@@ -9,6 +9,7 @@ $('.slider--min').slick({
   nextArrow: '<i class="slider_arrow slider_arrow--right"></i>',
   variableWidth: true,
   focusOnSelect: true,
+  adaptiveHeight: true
 });
 $('.slider--max').slick({
   draggable: false,
@@ -21,6 +22,7 @@ $('.slider--max').slick({
   nextArrow: '<i class="slider_arrow slider_arrow--right"></i>',
   variableWidth: true,
   focusOnSelect: true,
+  adaptiveHeight: true
 });
 
 var overlay = document.getElementById('overlay');
